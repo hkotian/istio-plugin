@@ -1,0 +1,12 @@
+[package]
+name = "fd-istio-plugin"
+version = "0.1.0"
+edition =  "2024"
+
+[dependencies]
+proxy-wasm = "0.2"
+log = "0.4.27"
+
+[lib]
+path = "src/lib.rs"
+crate-type = ["cdylib"]
