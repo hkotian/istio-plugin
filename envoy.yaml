@@ -60,12 +60,22 @@ static_resources:
                   address:
                     socket_address:
                       address: host.docker.internal
-                      port_value: 5060
+                      port_value: 6000
               - endpoint:
                   address:
                     socket_address:
                       address: host.docker.internal
-                      port_value: 5050
+                      port_value: 6001
+              - endpoint:
+                  address:
+                    socket_address:
+                      address: host.docker.internal
+                      port_value: 6002
+              - endpoint:
+                  address:
+                    socket_address:
+                      address: host.docker.internal
+                      port_value: 6003
 
 admin:
   access_log_path: "/tmp/admin_access.log"

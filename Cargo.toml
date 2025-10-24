@@ -8,6 +8,8 @@ proxy-wasm = "0.2"
 log = "0.4.27"
 sha2 = "0.11.0-rc.2"
 base64 = "0.22.1"
+rstest = "0.26.1"
+bson = "3.0.0"
 
 [lib]
 path = "src/lib.rs"
